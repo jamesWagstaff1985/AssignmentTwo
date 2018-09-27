@@ -44,3 +44,5 @@ example ` id   a8xhz4exwj4ubueov40x  `
 ``
 
 A test visa will be charged and a confirmation of the billing will be sent to your email address.
+
+A worker runs every hour that deletes all obsolete tokens
