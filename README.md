@@ -5,8 +5,8 @@ A restful API that listens on both ports, 5000 and 5001 for hhtp and https reque
 User can be created by sending a post request to /users
 
 ## Create user example (post)
-` /users `
-`` {
+` /users ` <br/>
+``` {
 	"name" : "John doe",
 	"emailAddress" : "johnDoe@swaga.com",
 	"streetAddress" : {
@@ -14,14 +14,16 @@ User can be created by sending a post request to /users
 		"number":"11123"
 	},
 	"password" : "myTopSecretPassword"
-} ``
+}
+```
 
 ## Create a token (post)
-` /tokens `
-``` {
+` /tokens ` <br/>
+`` {
 	"name" : "John doe",
 	"password" : "myTopSecretPassword"
-} ```
+}
+``
 
 ## Get menu items (get)
 ` /menu `
@@ -38,6 +40,7 @@ example ` id   a8xhz4exwj4ubueov40x  `
     "Mexican": 1,
     "Lemonade": 2
       }
-    } ```
+    }
+```
 
 A test visa will be charged and a confirmation of the billing will be sent to your email address.
