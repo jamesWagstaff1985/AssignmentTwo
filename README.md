@@ -34,13 +34,13 @@ User can be created by sending a post request to /users
 Add your token to the headers with a key called 'id'
 example ` id   a8xhz4exwj4ubueov40x  `
 
-`` { "name" : "james Wagstaff",
+``` { "name" : "james Wagstaff",
 	"order" : {
-    "Hawaiian": 2,
-    "Mexican": 1,
-    "Lemonade": 2
-      }
-    }
-``
+  "Hawaiian": 2,
+  "Mexican": 1,
+  "Lemonade": 2
+  }
+  }
+```
 
 A test visa will be charged and a confirmation of the billing will be sent to your email address.
